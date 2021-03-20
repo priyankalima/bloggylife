@@ -137,6 +137,9 @@ margin: auto;
         cursor: pointer;
         margin: 5px;
     }
+    .bottom-menu .nav i{
+      text-align:center;
+     }
     .bottom-menu .nav a:hover{
         color: #fff;
         background-color: #f72585;
