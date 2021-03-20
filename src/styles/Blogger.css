@@ -85,7 +85,7 @@ body{
     border-radius: 50%;
     border: none;
     outline: none;
-    margin-left: 5px;
+    margin-left:0;
     position: relative;
     color: #fff;
 }
