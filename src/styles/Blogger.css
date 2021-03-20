@@ -88,6 +88,7 @@ body{
     margin-top:20px;
     position: relative;
     color: #fff;
+    border:3px solid #f1f1f1;
 }
 .line{
     width: 2px;
