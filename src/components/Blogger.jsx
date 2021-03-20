@@ -91,16 +91,16 @@ return(
             <div className="container">
          <ul className="nav">
                     <li className="navbar-list">
-                        <a className="nav-link active" href="/blogger" ><i className="fa fa-home"> home</i></a>
+                        <a className="nav-link active" href="/blogger" ><i className="fa fa-home"><br/>home</i></a>
                     </li>
                     <li className="navbar-list">
-                        <a className="nav-link" href="https://itsmyarticlelife.blogspot.com/"><i className="fa fa-pencil-square-o"> articles</i></a>
+                        <a className="nav-link" href="https://itsmyarticlelife.blogspot.com/"><i className="fa fa-pencil-square-o"> <br/>articles</i></a>
                     </li>
                     <li className="navbar-list">
-                        <a className="nav-link" href="https://itsmyquotelife.blogspot.com/"><i className="fa fa-quote-right"> quotes</i></a>
+                        <a className="nav-link" href="https://itsmyquotelife.blogspot.com/"><i className="fa fa-quote-right"><br/> quotes</i></a>
                     </li>
                     <li className="navbar-list">
-                        <a className="nav-link" href="https://itsmystorielife.blogspot.com/"><i className="fa fa-book"> stories</i></a>
+                        <a className="nav-link" href="https://itsmystorielife.blogspot.com/"><i className="fa fa-book"> <br/>stories</i></a>
                     </li>
                 </ul>
          </div>
