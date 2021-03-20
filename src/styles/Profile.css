@@ -1,0 +1,52 @@
+span i{
+    width: 30px;
+    height: 30px;
+    background-color: #fec5bb;
+    margin: 0 5px;
+    padding-top: 7px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+}
+span i:hover{
+    background-color: #f72585;
+    color: #fff;
+}
+.blog-personals{
+    text-align: center;
+    margin:10px;
+}
+.card{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-left {
+        text-align: center;
+    }
+}
+
+
+.costoum-post{
+    background-color: #fec5bb;
+}
+.post-content{
+width: 82%;
+margin: auto;
+}
+.blog-container{
+    text-align: center;
+    padding:5px;
+    border-left: 2px solid #f72585;
+    
+}
+.image{
+    width: 100%;
+}
+.blog-post{
+    background-color:#fff;
+    margin: 10px;
+    padding: 10px 0;
+    border-radius:5px;
+    border:1px solid #f1f1f1;
+}

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Syne+Mono&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 2px solid #fec5bb;
+    overflow: hidden;
+}
+.btn-primary{
+    background-color: #f72585 !important;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin:10px;
+}
+.style-div{
+    font-family: 'Syne Mono', monospace;
+}
+.navbar a{
+    margin: 0 5px;
+    color:#111;
+    font-size: 13px;
+    cursor: pointer;
+}
+.active{
+    color: #fff !important;
+}
+.navbar a:hover,.active{
+    color: #fff;
+    background-color: #f72585;
+    padding: 5px 15px  !important;
+    border-radius: 30px;
+}
+.header-content{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.content{
+    padding: 15% 0;
+    text-align: center;
+    color: #f72585;
+}
+
+
+.main-section{
+    padding: 20px 0;
+}
+
+.costoum-post{
+    background-color: #fec5bb;
+}
+.post-content{
+width: 82%;
+margin: auto;
+}
+.blog-container{
+    text-align: center;
+    padding:5px;
+    border-left: 2px solid #f72585;
+    
+}
+.image{
+    width: 100%;
+}
+.blog-post{
+    background-color:#fff;
+    margin: 10px;
+    padding: 10px 0;
+    border-radius:5px;
+    border:1px solid #f1f1f1;
+}
+.main-section .btn-primary, .main-section a{
+    background-color:#f72585 !important;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.posts{
+    background-color:#f72585;
+    padding: 15px 7px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-left: -22px;
+    position: relative;
+    color: #fff;
+}
+.line{
+    width: 2px;
+    height: 50px;
+    background-color: #f72585;
+    position: relative;
+}
+.bottom-menu{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .post-content{
+        width: 90%;
+        margin: auto;
+    }
+    .navbar{
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        background-color: #fff;
+    }
+    .navbar .nav{
+        display: none;
+    }
+    .bottom-menu {
+        display: block;
+        background-color: #fec5bb;
+        
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+    }
+    .bottom-menu .nav{
+        width: 90%;
+        margin:auto;
+        padding: 10px 0;
+        
+    }
+    .bottom-menu .nav a{
+        color:#111;
+        font-size: 13px;
+        cursor: pointer;
+        margin: 5px;
+    }
+    .bottom-menu .nav a:hover{
+        color: #fff;
+        background-color: #f72585;
+        padding: 5px 13px  !important;
+        border-radius: 30px;
+    }
+    .content-left{
+        padding-bottom: 10px;
+    }
+    .content-right{
+        padding-top: 60px;
+    }
+    .main-section{
+        padding-bottom: 20%;
+    }
+    .footer-content{
+        display: none;
+    }
+  }
+
+  .footer-content{
+      text-align: center;
+      padding:20px 0 10px 0;
+  }
+ 
+  .footer-content i{
+      width: 30px;
+      height: 30px;
+      background-color: #fec5bb;
+      margin: 0 5px;
+      padding-top: 7px;
+      border-radius: 50%;
+      color: #fff;
+  }
+  .footer-content i:hover{
+      background-color: #f72585;
+      color: #fff;
+  }
+
+  .profile-content{
+      padding-top: 15%;
+      width: 80%;
+      margin: auto;
+  }
+  
+  .card{
+      padding: 10px;
+      text-align: center;
+  }
+  .profile a:hover{
+      background-color:transparent;
+      padding: 0 !important;
+  }
+  .btn-primary a{
+      color:#fff;
+      text-decoration: none;
+  }
+  .style-div a:hover{
+    background-color:transparent;
+    padding: 0 !important;
+  }
