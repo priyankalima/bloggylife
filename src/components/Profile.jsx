@@ -12,7 +12,7 @@ const Profile =()=>{
            <div className="container">
            <div className="row p-posts">
                <div className="col-sm-6 col-md-6 col-lg-6 content-left ">
-                   <img src={Img} width="50" alt="my image" 
+                   <img src={Img} width="100" alt="my image" 
                    style={{border:'3px solid #f1f1f1',borderRadius:'50%'}}/>
                </div>
                <div className="col-sm-6 col-md-6 col-lg-6 ">
