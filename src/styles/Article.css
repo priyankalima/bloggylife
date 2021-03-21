@@ -1,0 +1,23 @@
+
+.articleBackground{
+    padding-top: 20px;
+background-image:url('../assets/svg.svg');
+background-position: bottom;
+height:50vh;
+width:100%;
+position:relative;
+margin-bottom:-15%;
+z-index:-1;}
+@media only screen and (max-width: 600px){
+  .articleBackground{
+    margin-bottom: -35%;
+  }
+}
+.title{
+    text-align: center;
+    color:#fff;
+}
+.text{
+    text-align: center;
+    color: #fff;
+}
