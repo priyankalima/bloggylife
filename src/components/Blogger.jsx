@@ -60,6 +60,7 @@ return(
      </header>
      {/* this is an main section */}
      <section className="main-section">
+         <Article/>
          <div className="container post-content">
              <button className="posts">posts</button>
              <div className="line"></div>
