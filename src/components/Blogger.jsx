@@ -3,6 +3,11 @@ import '../styles/Blogger.css';
 import Data from '../assets/data.json';
 import Img from '../assets/myimage.jpeg';
 import Svg from '../assets/svg1.svg';
+import Article from './Article';
+import Quote from './Quote';
+import Stories from './Stories';
+import Blog from './Blog';
+
 const Blogger =()=>{
 return(
     <>
@@ -60,6 +65,78 @@ return(
              <div className="line"></div>
              <div className="blog-container">
 
+         {Data.map((posts)=>{
+           return <div className="row blog-post ">
+               <div className="col-sm-6 col-md-6 col-lg-6 ">
+                   <img src={posts.image}  className="image"/>
+                </div>
+               <div className="col-sm-6 col-md-6 col-lg-6">
+                <h3>{posts.name}</h3>
+               <p>{posts.text}</p>
+               <button className="btn btn-primary"><a href={posts.link}>Go to post</a></button>
+               </div>
+               
+           </div>
+         })}
+         </div>
+         </div>
+     </section>
+      {/* this is second section for quotes */}
+     <section className="main-section">
+         <Quote/>
+         <div className="container post-content">
+             <button className="posts">Recent Posts</button>
+             <div className="line"></div>
+             <div className="blog-container">
+             
+         {Data.map((posts)=>{
+           return <div className="row blog-post ">
+               <div className="col-sm-6 col-md-6 col-lg-6 ">
+                   <img src={posts.image}  className="image"/>
+                </div>
+               <div className="col-sm-6 col-md-6 col-lg-6">
+                <h3>{posts.name}</h3>
+               <p>{posts.text}</p>
+               <button className="btn btn-primary"><a href={posts.link}>Go to post</a></button>
+               </div>
+               
+           </div>
+         })}
+         </div>
+         </div>
+     </section>
+     {/* this is third section for storis */}
+     <section className="main-section">
+         <Stories/>
+         <div className="container post-content">
+             <button className="posts">Recent Posts</button>
+             <div className="line"></div>
+             <div className="blog-container">
+             
+         {Data.map((posts)=>{
+           return <div className="row blog-post ">
+               <div className="col-sm-6 col-md-6 col-lg-6 ">
+                   <img src={posts.image}  className="image"/>
+                </div>
+               <div className="col-sm-6 col-md-6 col-lg-6">
+                <h3>{posts.name}</h3>
+               <p>{posts.text}</p>
+               <button className="btn btn-primary"><a href={posts.link}>Go to post</a></button>
+               </div>
+               
+           </div>
+         })}
+         </div>
+         </div>
+     </section>
+     {/* this is forth section for personal blog */}
+     <section className="main-section">
+         <Blog/>
+         <div className="container post-content">
+             <button className="posts">Recent Posts</button>
+             <div className="line"></div>
+             <div className="blog-container">
+             
          {Data.map((posts)=>{
            return <div className="row blog-post ">
                <div className="col-sm-6 col-md-6 col-lg-6 ">
