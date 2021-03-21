@@ -156,7 +156,7 @@ return(
      </section>
      {/* this is a footer */}
      <footer>
-//          news letter
+
          <div className="news-letter">
              <div className="container">
              <div className="row ">
