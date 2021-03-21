@@ -20,19 +20,19 @@ const Profile =()=>{
                         <div className="row">
                             <div className="col">
                                 <span><strong>Posts</strong></span><br/>
-                                <span>300</span>
+                                <span>1</span>
                             </div>
                             <div className="col">
                             <span><strong>Articles</strong></span><br/>
-                                <span>300</span>
+                                <span>1</span>
                             </div>
                             <div className="col">
                             <span><strong>Quotes</strong></span><br/>
-                                <span>300</span>
+                                <span>0</span>
                             </div>
                             <div className="col">
                                 <span><strong>Stories</strong></span><br/>
-                                <span>300</span></div>
+                                <span>0</span></div>
                         </div>
                     </div>
                     <div className="blog-personals">
