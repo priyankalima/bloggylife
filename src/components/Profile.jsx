@@ -46,6 +46,7 @@ const Profile =()=>{
            <div className="about">
                <p>Hello Everyone,</p>
                <p>I am a Developer,UI/UX designer and content writer.</p>
+               <p>Founder of Bloggylife❤️</p>
                <p>Creating New things is my passion</p>
                <p>I love to sing,dance,creating,designing and so on to try.</p>
            </div>
