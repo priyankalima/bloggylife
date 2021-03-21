@@ -194,3 +194,12 @@ body{
     background-color:transparent;
     padding: 0 !important;
   }
+
+  .news-letter{
+      background-color: #fec5bb;
+      padding: 20px 0;
+      margin:40px 0;
+  }
+  .news-letter h5{
+      padding-top: 10px;
+  }
