@@ -6,7 +6,7 @@ const Article =()=>{
         <>
         <div className="articleBackground">
             <h4 className="title">Articles</h4>
-            <p className="text">yes this is really great</p>
+            <p className="text">Gain knowledge from Article , Every Article not boring just Try to read ,Then Ask Yourself How much I Gain knowledge...</p>
         </div>
         </>
     )
