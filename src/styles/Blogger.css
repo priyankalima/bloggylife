@@ -203,3 +203,18 @@ body{
   .news-letter h5{
       padding-top: 10px;
   }
+
+ /* plan content styling */
+  .plan-content{
+      text-align: center;
+  }
+  .plan-content h1{
+      font-weight: bold;
+  }
+  
+  .plan{
+      width: 80%;
+      margin: auto;
+      
+  }
+ 
