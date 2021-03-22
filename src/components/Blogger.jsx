@@ -165,17 +165,17 @@ return(
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://forms.gle/iQWwE8QPbtPtYdPHA" class="btn btn-primary">Get Quote</a>
                     </div>
                   </div></center>
                  </div>
                  <div className="col-sm-6 col-md-6 col-lg-6 ">
                  <center><div class="card" style={{width: '25rem'}}>
-                 <img src="http://socialmediaweek.org/wp-content/blogs.dir/1/files/2015/07/Writing-freelancer.jpg" class="card-img-top" alt="..."/>
+                 <img src="https://www.geartechnology.com/blog/wp-content/uploads/2016/09/articles-004.jpg" height="251"  class="card-img-top" alt="..."/>
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://forms.gle/iQWwE8QPbtPtYdPHA" class="btn btn-primary">Get Quote/a>
                     </div>
                   </div></center>
                  </div>
