@@ -62,7 +62,7 @@ return(
      <section className="main-section">
          <Article/>
          <div className="container post-content">
-             <button className="posts">posts</button>
+             <button className="posts">Recent Posts</button>
              <div className="line"></div>
              <div className="blog-container">
 
@@ -93,12 +93,10 @@ return(
          {Data.map((posts)=>{
            return <div className="row blog-post ">
                <div className="col-sm-6 col-md-6 col-lg-6 ">
-                   <img src={posts.image}  className="image"/>
+                   <img src={Img1} width="200"  />
                 </div>
                <div className="col-sm-6 col-md-6 col-lg-6">
-                <h3>{posts.name}</h3>
-               <p>{posts.text}</p>
-               <button className="btn btn-primary"><a href={posts.link}>Go to post</a></button>
+                <h3 style={{paddingTop:'50px'}}>{posts.noContent}</h3>
                </div>
                
            </div>
@@ -117,12 +115,10 @@ return(
          {Data.map((posts)=>{
            return <div className="row blog-post ">
                <div className="col-sm-6 col-md-6 col-lg-6 ">
-                   <img src={posts.image}  className="image"/>
+                   <img src={Img1} width="200"  />
                 </div>
                <div className="col-sm-6 col-md-6 col-lg-6">
-                <h3>{posts.name}</h3>
-               <p>{posts.text}</p>
-               <button className="btn btn-primary"><a href={posts.link}>Go to post</a></button>
+                <h3 style={{paddingTop:'50px'}}>{posts.noContent}</h3>
                </div>
                
            </div>
@@ -141,12 +137,10 @@ return(
          {Data.map((posts)=>{
            return <div className="row blog-post ">
                <div className="col-sm-6 col-md-6 col-lg-6 ">
-                   <img src={posts.image}  className="image"/>
+                   <img src={Img1} width="200"  />
                 </div>
                <div className="col-sm-6 col-md-6 col-lg-6">
-                <h3>{posts.name}</h3>
-               <p>{posts.text}</p>
-               <button className="btn btn-primary"><a href={posts.link}>Go to post</a></button>
+                <h3 style={{paddingTop:'50px'}}>{posts.noContent}</h3>
                </div>
                
            </div>
