@@ -7,7 +7,7 @@ import Article from './Article';
 import Quote from './Quote';
 import Stories from './Stories';
 import Blog from './Blog';
-
+import Img1 from '../assets/no_content.svg';
 const Blogger =()=>{
 return(
     <>
