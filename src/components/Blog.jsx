@@ -7,7 +7,7 @@ const Blog =()=>{
         <>
         <div className="articleBackground">
             <h4 className="title">My Personal Blogs</h4>
-            <p className="text">yes this is really great</p>
+            <p className="text">Do you want to know me just see my blog here..:)</p>
         </div>
         </>
     )
