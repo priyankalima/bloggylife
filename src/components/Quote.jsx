@@ -7,7 +7,7 @@ const Quote =()=>{
         <>
         <div className="articleBackground">
             <h4 className="title">Quotes</h4>
-            <p className="text">yes this is really great</p>
+            <p className="text">Quotation not only for motivation its creativity that express our self of Knowledge</p>
         </div>
         </>
     )
