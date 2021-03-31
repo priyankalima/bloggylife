@@ -74,7 +74,7 @@ return(
                <div className="col-sm-6 col-md-6 col-lg-6">
                 <h3>{posts.name}</h3>
                <p>{posts.text}</p>
-               <button className="btn btn-primary"><a href={posts.link}>Go to post</a></button>
+               <button className="btn btn-primary"><a href={posts.link} target="_blank">Go to post</a></button>
                </div>
                
            </div>
