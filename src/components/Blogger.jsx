@@ -152,18 +152,6 @@ return(
      {/* this is a footer */}
      <footer>
 
-         <div className="news-letter">
-             <div className="container">
-             <div className="row ">
-                 <div className="col-sm-6 col-md-6 col-lg-6 text-center">
-                     <h5>Please Subscribe for More Newsletter and Updates</h5>
-                 </div>
-                 <div className="col-sm-6 col-md-6 col-lg-6 text-center">
-                     <button className="btn btn-primary">Subscribe Now</button>
-                 </div>
-             </div>
-             </div>
-         </div>
          <div className="footer-content">
              <div className="container">
                   <span style={{color:'#999'}}>All Rights Reserve @Bloggy_Life_2021</span>
